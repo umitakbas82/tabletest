@@ -1,0 +1,9 @@
+<p>tables works!</p>
+<button (click)='toggleShowTable()' class="btn btn-primary">Show Table</button>
+
+<div class="container" >
+<table class="table"  *ngIf='showTable'  #showTable id="toggleShowTable">
+<th>Data 1</th>
+<th>Data 2</th>
+</table>
+</div>
